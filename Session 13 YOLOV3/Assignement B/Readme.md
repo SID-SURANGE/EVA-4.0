@@ -53,5 +53,51 @@ data
 12) Run this command python train.py --data data/customdata/custom.data --batch 10 --cache --cfg cfg/yolov3-custom.cfg --epochs 3 --nosave
 
 ```
+<hr>
+
+<h4> Custom Dataset details </h3>
+<ol>
+  <li>Object - GROOT (Character from Guardian of the Galaxy Movie)</li>
+  <li>Training images - 460</li>
+  <li>Image size - 600*500/ 300*250</li>
+</ol>
+
+<hr>
+
+<h4> Training Details </h4>
+
+Epochs Trained - 200
+
+Last few epochs snapshot
+
+```
+    Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+   196/199     9.17G      1.03     0.587         0      1.62        15       512: 100% 38/38 [00:48<00:00,  1.28s/it]
+               Class    Images   Targets         P         R   mAP@0.5        F1: 100% 38/38 [00:12<00:00,  2.95it/s]
+                 all       451       456     0.926     0.853     0.921     0.888
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+   197/199     9.17G      1.11     0.561         0      1.67        13       512: 100% 38/38 [00:48<00:00,  1.28s/it]
+               Class    Images   Targets         P         R   mAP@0.5        F1: 100% 38/38 [00:13<00:00,  2.91it/s]
+                 all       451       456     0.927     0.862     0.921     0.893
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+   198/199     9.17G      1.22     0.588         0      1.81        14       512: 100% 38/38 [00:48<00:00,  1.28s/it]
+               Class    Images   Targets         P         R   mAP@0.5        F1: 100% 38/38 [00:13<00:00,  2.92it/s]
+                 all       451       456     0.907     0.851     0.916     0.878
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+   199/199     9.17G      1.11     0.532         0      1.65        12       512: 100% 38/38 [00:48<00:00,  1.28s/it]
+               Class    Images   Targets         P         R   mAP@0.5        F1: 100% 38/38 [00:13<00:00,  2.91it/s]
+                 all       451       456     0.907     0.853     0.917     0.879
+200 epochs completed in 3.425 hours.
+
+
+```
+<hr>
+
+<h4><i> Link to Youtube Video - "Groot Character Detection using YOLOV3"(click on image)</h4>
+
+[![IMAGE ALT TEXT](https://github.com/SID-SURANGE/EVA-4.0/blob/master/Session%2013%20YOLOV3/Assignement%20B/Snap.jpg)](https://youtu.be/9AAcoXx8w38 "Groot Character Detection using YOLOV3")
 
 Author - Siddharth Surange
