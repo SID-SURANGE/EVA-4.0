@@ -53,3 +53,5 @@ data
 12) Run this command python train.py --data data/customdata/custom.data --batch 10 --cache --cfg cfg/yolov3-custom.cfg --epochs 3 --nosave
 
 ```
+
+Author - Siddharth Surange
