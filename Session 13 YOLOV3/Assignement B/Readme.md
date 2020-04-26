@@ -1,7 +1,7 @@
 <h2><i><b> Assignment B - Train Custom Dataset Using YoloV3 </B><I></H2>
 <HR>
 
-<H4> Follow below steps to train data on custom DATASET</H4>
+<H4> Follow below steps to train YOLOV3 on custom DATASET</H4>
 <H6> All the below steps have been referred from repo https://github.com/theschoolofai/YoloV3. Visit here for full implemenation details and model weights</H6>
 
 
