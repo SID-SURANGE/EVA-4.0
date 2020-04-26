@@ -11,3 +11,9 @@ OpenCV Yolo:
 4) Upload the link to GitHub implementation of this
 
 ```
+
+<b>Prediction</b>
+
+![img](https://github.com/SID-SURANGE/EVA-4.0/blob/master/Session%2013%20YOLOV3/Assignment%20A/EVA%20S13A.png)
+
+Author - Siddharth Surange
