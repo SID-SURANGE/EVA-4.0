@@ -2,7 +2,7 @@
 <HR>
 
 <H4> Follow below steps to train data on custom DATASET</H4>
-<H6> All the below steps have been taken FROM  https://github.com/theschoolofai/YoloV3. Visit here for full implemenation details and model weights</H6>
+<H6> All the below steps have been referred from repo https://github.com/theschoolofai/YoloV3. Visit here for full implemenation details and model weights</H6>
 
 
 ```
