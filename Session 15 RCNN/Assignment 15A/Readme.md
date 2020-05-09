@@ -34,19 +34,19 @@
 <hr>
 <h4> Sample Images in the Dataset and their generated masks</h4>
 
-<b><i> Foreground images<b>
+<b><i> Foreground images</b>
 
 ![img](https://github.com/SID-SURANGE/EVA-4.0/blob/master/Session%2015%20RCNN/Assignment%2015A/Bg_images.png)
 
-<b><i> Background images<b>
+<b><i> Background images</b>
 
 ![img](https://github.com/SID-SURANGE/EVA-4.0/blob/master/Session%2015%20RCNN/Assignment%2015A/Fg_images.png)
 
-<b><i> Foreground-Background Overlap images<b>
+<b><i> Foreground-Background Overlap images</b>
 
 ![img](https://github.com/SID-SURANGE/EVA-4.0/blob/master/Session%2015%20RCNN/Assignment%2015A/Fg-bg.png)
 
-<b><i> Foreground-Background Mask images<b>
+<b><i> Foreground-Background Mask images</b>
 
 ![img](https://github.com/SID-SURANGE/EVA-4.0/blob/master/Session%2015%20RCNN/Assignment%2015A/Fg-bg-mask.png)
 
