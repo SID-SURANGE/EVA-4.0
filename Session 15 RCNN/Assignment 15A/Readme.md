@@ -1,6 +1,13 @@
 <h3><i> Assignment 15A - Dataset creation for Monocular Depth Estimation Model </i></h3>
 <hr>
 <h4> Dataset Link </h4>
+<p>Here's the drive link to the data -</p>
+https://drive.google.com/drive/folders/1uAsyblbBx3APE6TkcgwVbXvdeybQXge9?usp=sharing
+
+<h6>Contents</h6>
+<p>Foregound images (Folder name - fgscaled), <br>Background images (bf scaled),<br> Foreground-Background (bg-fg-images),<br> fg-bg masks (bg-fg_images_masks),<br> Depth masks (Depth_output)
+</p>
+
 
 <h4> Dataset statistics </h4>
 <h5> Data used for foreground and background</h6>
@@ -9,7 +16,7 @@
   <li><b>Foreground images</b> - Dogs</li>
 </ol>
 
-<h4> Image count for FG, BG, FG-BG and their masks</h4>
+<h5> Image count for FG, BG, FG-BG and their masks</h5>
 <ol>
   <li><b>Background Images</b> - 107</li>
   <li><b>Foreground Images</b> - 100</li>
@@ -18,10 +25,15 @@
   <li><b>Fg-bg Depth masks</b> - 428000</li>
 </ol>
 
-<h4> Size of dataset - 428k images - 5.7GB</h4>
-
+<h5> Size of images for each category and final dataset size</h4>
+<ol>
+  <li><b>Background Images</b> - 224*224</li>
+  <li><b>Foreground Images</b> - 100*100</li>
+  <li><b>Fg-bg images/masks/depth masks</b> - 224*224 </li>
+  <li><b>Final dataset size</b> - 428k images - 5.7GB </li>
+</ol>
 <hr>
-<h4> Mean and Standard deviation </h4>
+<h5> Mean and Standard deviation </h4>
 <ol>
   <li><b>FG-BG Images-</b> <br>
     (Mean - ['0.517005503177643', '0.505432009696960', '0.487791448831558'],<br>
@@ -49,6 +61,10 @@
 <b><i> Foreground-Background Mask images</b>
 
 ![img](https://github.com/SID-SURANGE/EVA-4.0/blob/master/Session%2015%20RCNN/Assignment%2015A/Fg-bg-mask.png)
+
+<b><i> Foreground-Background DEPTH Mask images</b>
+
+![img](https://github.com/SID-SURANGE/EVA-4.0/blob/master/Session%2015%20RCNN/Assignment%2015A/Depth-masks.png)
 
 <hr>
 <h4> How dataset was created</h4>
