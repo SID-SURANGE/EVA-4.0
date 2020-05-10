@@ -1,14 +1,21 @@
 <h3><i> Assignment 15A - Dataset creation for Monocular Depth Estimation Model </i></h3>
 <hr>
 <h4> Dataset Link </h4>
-<p>Here's the drive link to the data -</p>
-https://drive.google.com/drive/folders/1uAsyblbBx3APE6TkcgwVbXvdeybQXge9?usp=sharing
+<p>Here's the drive link to the data -   
+  
+  [Click here to access dataset](https://drive.google.com/drive/folders/1uAsyblbBx3APE6TkcgwVbXvdeybQXge9?usp=sharing)
 
-<h6>Contents</h6>
-<p>Foregound images (Folder name - fgscaled), <br>Background images (bf scaled),<br> Foreground-Background (bg-fg-images),<br> fg-bg masks (bg-fg_images_masks),<br> Depth masks (Depth_output)
 </p>
-
-
+<h6>Contents</h6>
+<ul>
+  <li>Foregound images - (Folder name - fgscaled)</li>
+  <li>Background images - (bf scaled)</li>
+  <li>Foreground-Background - (bg-fg-images)</li>
+  <li>Fg-bg masks - (bg-fg_images_masks)</li>
+  <li>Depth masks - (Depth_output)</li>
+</ul>
+ 
+<hr>
 <h4> Dataset statistics </h4>
 <h5> Data used for foreground and background</h6>
 <ol>
@@ -36,12 +43,14 @@ https://drive.google.com/drive/folders/1uAsyblbBx3APE6TkcgwVbXvdeybQXge9?usp=sha
 <h5> Mean and Standard deviation </h4>
 <ol>
   <li><b>FG-BG Images-</b> <br>
-    (Mean - ['0.517005503177643', '0.505432009696960', '0.487791448831558'],<br>
-     STD -  ['0.229048311710358', '0.227772325277328', '0.242317050695419'])</li>
+    <B>Mean</b> - '0.517005503177643', '0.505432009696960', '0.487791448831558'<br>
+    <b>STD</b> -  '0.229048311710358', '0.227772325277328', '0.242317050695419'</li>
   <li><b>FG-BG Masks-</b><br>
-  (Mean - ['0.051495332270861', '0.051495332270861', '0.051495332270861'],<BR>
-   STD  - ['0.214586526155472', '0.214586526155472', '0.214586526155472'])</li>
-  <li><b>Depth Masks-</b></li>
+    <b>Mean</b> - '0.051495332270861', '0.051495332270861', '0.051495332270861'<BR>
+    <b>STD</b>  - '0.214586526155472', '0.214586526155472', '0.214586526155472'</li>
+  <li><b>Depth Masks-</b><br>
+    <b>Mean</b> - '0.374479949474335', '0.374479949474335', '0.374479949474335'<BR>
+    <b>STD</b>  - '0.210883036255836', '0.210883036255836', '0.210883036255836'</li>
 </ol>
 <hr>
 <h4> Sample Images in the Dataset and their generated masks</h4>
